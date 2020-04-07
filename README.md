@@ -253,3 +253,4 @@ This solution does not support a few particular scenarios:
   into BigQuery does **not** handle changes of schema. If you want to update the
   schema of one of your MySQL tables, it is a good idea to redeploy the Debezium
   connector, and the Dataflow pipeline.
+
